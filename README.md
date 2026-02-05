@@ -49,6 +49,11 @@ https://restcountries.com/
 pip install -r requirements.txt
 pytest -v
 
-## Test Execution Result -
-<img width="943" height="254" alt="Api_tests_result" src="https://github.com/user-attachments/assets/3cfbc565-c2c3-4303-adaa-b4070f3bd91b" />
+## Test Execution
+
+Below is a screenshot showing the API tests running locally on Windows:
+
+![API Test Run](Api_tests_result.png)
+
+
 
