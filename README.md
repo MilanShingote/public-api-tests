@@ -20,10 +20,10 @@ https://restcountries.com/
 
 | Test Case ID | Endpoint | Description | Validations |
 |-------------|---------|-------------|-------------|
-| TC_API_01 | GET /all | Retrieve list of all countries | Status code 200, response is a non-empty list |
-| TC_API_02 | GET /name/{name} | Retrieve country by valid name | Status code 200, correct country name returned |
-| TC_API_03 | GET /alpha/{code} | Retrieve country by valid ISO code | Status code 200, correct country code returned |
-| TC_API_04 | GET /name/{name} | Retrieve country with invalid name | Status code 404 or 400 |
+| TC_API_01 | GET /name/{name} | Retrieve country by valid name | Status code 200, correct country name returned |
+| TC_API_02 | GET /alpha/{code} | Retrieve country by valid ISO code | Status code 200, correct country code returned |
+| TC_API_03 | GET /name/{name} | Retrieve country with invalid name | Status code 404 or 400 |
+| TC_API_04 | GET /alpha/{code} | Retrieve country with invalid code | Status code 404 or 400 |
 
 ---
 
@@ -48,3 +48,7 @@ https://restcountries.com/
 ```bash
 pip install -r requirements.txt
 pytest -v
+
+## Test Execution Result -
+<img width="943" height="254" alt="Api_tests_result" src="https://github.com/user-attachments/assets/3cfbc565-c2c3-4303-adaa-b4070f3bd91b" />
+
