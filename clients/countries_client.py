@@ -1,0 +1,13 @@
+import requests
+
+
+class CountriesClient:
+    BASE_URL = "https://restcountries.com/v3.1"
+
+    @staticmethod
+    def get_country_by_name(name):
+        return requests.get(f"{CountriesClient.BASE_URL}/name/{name}")
+
+    @staticmethod
+    def get_country_by_code(code):
+        return requests.get(f"{CountriesClient.BASE_URL}/alpha/{code}")
