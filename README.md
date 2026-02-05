@@ -41,6 +41,13 @@ https://restcountries.com/
 - **Negative Scenario Validation**  
   Confirms invalid requests are handled gracefully and do not return misleading data.
 
+
+## Test Execution
+
+Below is a screenshot showing the API tests running locally on Windows:
+
+![API Test Run](Api_tests_result.png)
+
 ---
 
 ## How to Run the Tests
@@ -49,11 +56,8 @@ https://restcountries.com/
 pip install -r requirements.txt
 pytest -v
 
-## Test Execution
 
-Below is a screenshot showing the API tests running locally on Windows:
 
-![API Test Run](Api_tests_result.png)
 
 
 
